@@ -3,11 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>MCMP-Design - Mi kao nešto dizajniramo</title>
+    <meta name="description" content="Ćao, mi smo MCMP-Design, mi kao nešto dizajniramo. Webdesign, SEO optimizacija, izrada logoa, izrada vizuelnog identiteta u Srbiji. Sve to radi MCMP-Design">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- STYLESHEETS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/app.css">
 
 </head>
+
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -34,27 +40,3 @@
     </div>
 </nav>
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 widgetBox">
-                <p class="textbox">
-                    <span style="font-size: 6rem; color: #2C3333">Ćao,</span> <br><span style="font-size: 2rem; color: #395B64;"> malo si poranio/poranila. Razumemo veliko interesovanje za naš rad tako da radimo punom parom!! U međuvremenu možeš da nas kontaktiraš na: <br>
-                         <span style="color:#2C3333; text-decoration:underline">kontakt@mcmp-design.com</span></span>
-                </p>
-            </div>
-            <div class="col-sm-4 widgetBox">
-
-                <img id="logoOnPage" src="images/Logo.png">
-                <div class="socialMediaButtons">
-                    <a href="https://www.facebook.com/mcmpdesign" class="fa fa-facebook" target="_blank"></a>
-                    <a href="https://www.instagram.com/mcmp_design/" class="fa fa-instagram" target="_blank"></a>
-                    <a href="#" class="fa fa-dribbble"></a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Site footer -->
-@include('layouts/footer')
