@@ -4,8 +4,10 @@
         <div class="row">
             <div class="col-sm-8 widgetBox">
                 <p class="textbox">
-                    <span style="font-size: 6rem; color: #2C3333">Ćao,</span> <br><span style="font-size: 2rem; color: #395B64;"> malo si poranio/poranila. Razumemo veliko interesovanje za naš rad tako da radimo punom parom!! U međuvremenu možeš da nas kontaktiraš na: <br>
-                         <span style="color:#2C3333; text-decoration:underline">kontakt@mcmp-design.com</span></span>
+                    <span style="font-size: 6rem; color: #2C3333">Ćao,</span> <br><span style="font-size: 2rem; color: #395B64;"> malo si poranio/poranila. Radimo punom parom!! U međuvremenu možeš da nas kontaktiraš na: <br>
+                         <span style="color:#2C3333; text-decoration:underline">kontakt@mcmp-design.com</span> <br>
+                        Više informacija na: <span style="color:#2C3333"><a href="/faq" target="_blank">KLICK </a> </span></span>
+
                 </p>
             </div>
             <div class="col-sm-4 widgetBox">

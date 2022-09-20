@@ -6,9 +6,7 @@ body {
     font-family: sans-serif;
 }
 
-section {
-    margin: 3rem auto;
-}
+
 
 h1 {
     font-size: 4rem;
@@ -29,10 +27,14 @@ a {
 }
 
 .navbar-nav {
-    position: absolute;
+   position: absolute;
     left: auto;
     right: 5%;
+
 }
+
+
+
 
 .nav-item {
     padding-left: 4rem;
@@ -75,9 +77,10 @@ a {
     height: 80px;
 }
 
-#crnja {
-    width: 380px;
-    height: 500px;
+#homePicture {
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 #logoOnPage {
@@ -109,21 +112,6 @@ a {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #2C3333;
-    color: #E7F6F2;
-}
-
-.fa-instagram {
-    background: #2C3333;
-    color: #E7F6F2;
-}
-
-.fa-dribbble {
-    background: #2c3333;
-    color: #E7F6F2;
 }
 
 
@@ -246,13 +234,145 @@ a {
 
 
 
+/**** O NAMA ****/
+
+.milaniSection {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
 
 
+.border {
+    height: 360px;
+    width: 290px;
+    margin: 0.3rem;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
 
+}
 
+.border:hover {
+    border: 1px solid #fff;
+}
 
+.card0 {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 
+.infoCard {
+    height: fit-content;
+    width: -moz-fit-content;
+    box-shadow: 5px 10px rgba(44, 51, 51, 0.66);
+    color: #2c3333;
+}
+.card-header {
+    background: #395B64;
+    color: #fff;
+}
+.infoCard .card-header, .infoCard .card-body {
+    text-align: center;
+}
 
+#milanCrni{
+    background:
+    url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.18169-9/16681716_1170817346377678_865885971575428408_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZdFDOs5Qf34AX_xqyLa&_nc_ht=scontent-vie1-1.xx&oh=00_AT-59gHrxc3LCI_XCqwShtu2kEt3pvzU5q9RXazInfooAA&oe=634B28F1") center center no-repeat;
+    background-size: 300px;
+}
+
+.infoCard .card-body {
+    background: #A5C9CA;
+
+}
+ #milanCrni:hover{
+url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.18169-9/16681716_1170817346377678_865885971575428408_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZdFDOs5Qf34AX_xqyLa&_nc_ht=scontent-vie1-1.xx&oh=00_AT-59gHrxc3LCI_XCqwShtu2kEt3pvzU5q9RXazInfooAA&oe=634B28F1") center center no-repeat;
+background-size: 400px;
+}
+
+#milanPlavi{
+    background:
+        url("images/Milan Ristic - Foto.png") center center no-repeat;
+    background-size: 300px;
+}
+
+#milanPlavi:hover{
+    background:
+    url("images/Milan Ristic - Foto.png") center center no-repeat;
+    background-size: 400px;
+}
+
+#mcmpCard{
+    background:
+        url("images/Logo.png") center center no-repeat;
+    background-size: 300px;
+    margin: auto;
+}
+
+#mcmpCard:hover{
+    background:
+        url("images/Logo.png") center center no-repeat;
+    background-size: 350px;
+}
+#mcmpCardHidden {
+    background: #A5C9CA;
+    box-shadow: 5px 10px rgba(44, 51, 51, 0.66);
+    height: fit-content;
+    width: 800px;
+    margin:auto;
+    border-radius: 10px;
+    text-align:justify;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+
+}
+
+.aboutText {
+    padding: 3%;
+}
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+.card0 h2 {
+    font-family: 'Helvetica Neue', Helverica, Arial, sans-serif;
+    color: #2c3333;
+    text-align: center;
+    margin: 20px;
+    opacity: 0;
+    transition:  opacity 1s;
+}
+
+.card0 .fa {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card0 .icons {
+    position: absolute;
+    fill: #fff;
+    color: #2c3333;
+    height: 130px;
+    bottom: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
@@ -365,4 +485,57 @@ a {
 {
     margin: 0;
     text-align:center;
+}
+
+
+/**** MEDIA QUERY*****/
+
+/**** TABLETS AND UP ***/
+@media (max-width: 1000px) {
+    .navbar-nav {
+        position: relative;
+    }
+    #mcmpCardHidden {
+        width: 100%;
+        height: fit-content;
+    }
+}
+/******* PHONES *************/
+
+@media (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+        position: relative;
+        margin: 1rem auto;
+    }
+
+    .textbox {
+        text-align: -webkit-center;
+    }
+
+    .navbar-nav {
+        position: relative;
+    }
+
+    #mcmpCardHidden{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .card0 .fa {
+        opacity: 1;
+    }
+
+    .milaniSection .card0 .icons {
+        padding-top: 15%;
+    }
+
+   .homeRow {
+       display: flex;
+       flex-direction: revert;
+   }
+
+   section {
+       margin: 1rem auto;
+   }
 }
